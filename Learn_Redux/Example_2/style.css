@@ -1,0 +1,33 @@
+body {
+    background-color: #eee;
+    color: #000;
+}
+
+.todolist-wrapper {
+    margin: 30px 15px;
+}
+
+.todolist .todolist-title {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.todolist .todo {
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.todolist .todo:hover {
+    background-color: yellowgreen;
+    color: #fff;
+}
+
+.todolist .todo:hover::marker {
+    color: #000;
+}
+
+#change-theme-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #eee;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Redux with vanilla JavaScript</h1>
+
+    <div class="todolist-wrapper">
+        <div class="todolist" id="todolist">
+            <div class="todolist-title">TO DO LIST:</div>
+
+            <form id="todolist-form">
+                <label for="todo-input">New to-do:</label>
+                <input type="text" name="todo" id="todo-input" autofocus>
+                <button class="add-todo-btn">Add</button>
+            </form>
+
+            <ul class="todolist-items">
+                <li class="todo"></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Redux CDN: -->
+    <script src="https://unpkg.com/redux@4.1.2/dist/redux.js"></script>
+    <!-- My scripts: -->
+    <script src="./Learn_Redux.js"></script>
+</body>
+
+</html>
